@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>Concierge Tecnologia</title>
+
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+		}
+
+		.navbar {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			position: sticky;
+			top: 0;
+			cursor: pointer;
+		}
+
+		.background {
+			background: rgb(54, 15, 163);
+			background-blend-mode: darken;
+			background-size: cover;
+		}
+
+		.nav-list {
+			width: 70%;
+			display: flex;
+			align-items: center;
+			font-family: 'Arial', sans-serif;
+			font-size: 23px;
+		}
+
+		.logo {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		.logo img {
+			width: 180px;
+			border-radius: 50px;
+		}
+
+		.nav-list li {
+			list-style: none;
+			padding: 26px 30px;
+		}
+
+		.nav-list li a {
+			text-decoration: none;
+			color: white;
+		}
+
+		.nav-list li a:hover {
+			color: grey;
+		}
+
+		.rightnav {
+			width: 50%;
+			text-align: right;
+		}
+
+		#search {
+			padding: 5px;
+			font-size: 17px;
+			border: 2px solid grey;
+			border-radius: 9px;
+		}
+
+		.firstsection {
+			background-color: rgb(30, 148, 125);
+			height: 400px;
+		}
+
+		.secondsection {
+			background-color: rgb(255, 247, 0);
+			height: 400px;
+		}
+
+		.box-main {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			color: black;
+			max-width: 80%;
+			margin: auto;
+			height: 80%;
+		}
+
+		.firsthalf {
+			width: 100%;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+		}
+
+		.secondhalf {
+			width: 30%;
+		}
+
+		.secondhalf img {
+			width: 70%;
+			border: 4px solid white;
+			border-radius: 150px;
+			display: block;
+			margin: auto;
+		}
+
+		.text-big {
+			font-family: 'Arial', serif;
+			font-weight: bold;
+			font-size: 35px;
+		}
+
+		.text-small {
+			font-size: 18px;
+			font-family: 'Arial', sans-serif;
+			text-align: justify;
+		}
+
+		.btn {
+			padding: 8px 20px;
+			margin: 7px 0;
+			border: 2px solid white;
+			border-radius: 8px;
+			background: none;
+			color: white;
+			cursor: pointer;
+		}
+
+		.btn-sm {
+			padding: 6px 10px;
+			vertical-align: middle;
+		}
+
+		.section {
+			height: 400px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			max-width: 90%;
+			margin: auto;
+			
+		}
+
+		.section-Left {
+			flex-direction: row-reverse;
+		}
+
+		.paras {
+			padding: 0px 65px;
+		}
+
+		.thumbnail img {
+			width: 250px;
+			border: 2px solid black;
+			border-radius: 26px;
+			margin-top: 19px;
+		}
+
+		.center {
+			text-align: center;
+		}
+
+		.text-footer {
+			text-align: center;
+			padding: 30px 0;
+			font-family: 'Arial', sans-serif;
+			display: flex;
+			justify-content: center;
+			color: white;
+		}
+	</style>
+</head>
+
+<body>
+	<nav class="navbar background">
+		<ul class="nav-list">
+			<div class="logo">
+				<img src= "logo.png">
+			</div>
+			<li><a href="#web">A Empresa</a></li>
+			<li><a href="#program">Produtos</a></li>
+			<li><a href="#course">Fale Conosco</a></li>
+		</ul>
+
+		<div class="rightNav">
+			<input type="text" name="search" id="search" style="width: 300px;">
+			<button class="btn btn-sm">Pesquisar</button>
+		</div>
+	</nav>
+
+	<section class="firstsection">
+		<div class="box-main">
+			<div class="firstHalf">
+				<h1 class="text-big" id="web">Microsoft Sharepoint</h1>
+				<p class="text-small">
+					O SharePoint iniciou sua jornada em 2001 e desde então tem sofrido inúmeras alterações resultando num salto gigante de funcionalidades e melhorias de interface. O foco principal sempre foi favorecer a colaboração de equipes, permitindo uma forma fácil de compartilhar, organizar e acessar informações, ou seja, um verdadeiro portal de informações corporativas. Uma das grandes propostas do SharePoint é também facilitar a interação de usuários e Web Designers que possuem pouco conhecimento de TI com a ferramenta, possibilitando a criação de elementos de site com grande facilidade. 
+				</p>
+
+
+			</div>
+			<div class="thumbnail">
+				<img src= "img3.png" alt="Sharepoint logo">
+			</div>
+		</div>
+	</section>
+
+	<section class="secondsection">
+		<div class="box-main">
+			<div class="firstHalf">
+				<h1 class="text-big" id="program">
+					Microsoft Power BI
+				</h1>
+				<p class="text-small">
+					A análise de dados é algo primordial para qualquer tipo de tomada de decisão, seja ela profissional ou pessoal. Para isso, torna-se necessário termos o auxílio de uma ferramenta que nos ajude a realizar tal tarefa.
+O Power BI foi projeto em 2010, porém, só se tornou formalmente Power BI em 2013.
+O Microsoft Power BI é uma poderosa plataforma de Business Intelligence que une diversas ferramentas para análise de dados.
+Seu principal objetivo é a elaboração de relatórios e painéis (dashboards). O Power BI também te proporciona uma visão 360º com suas métricas mais importantes em só lugar, podendo ser atualizadas em tempo real e disponíveis em todos os seus dispositivos.
+
+				</p>
+
+
+			</div>
+			<div class="thumbnail">
+				<img src= "img2.png" alt="Power BI logo">
+			</div>
+		</div>
+		
+	</section>
+
+	<section class="section">
+		<div class="paras">
+			<h1 class="sectionTag text-big">Microsoft Powershell</h1>
+
+			<p class="sectionSubTag text-small">
+				O PowerShell é uma solução de automação de tarefas multiplataforma que consiste em um shell de linha de comando, em uma linguagem de script e uma estrutura de gerenciamento de configuração. O PowerShell pode ser executado no Windows, Linux e macOS. O PowerShell é um shell de comando moderno que inclui os melhores recursos de outros shells populares. Ao contrário da maioria dos shells que só aceita e retorna texto, o PowerShell aceita e retorna objetos .NET. Como uma linguagem de script, o PowerShell é normalmente usado para automatizar o gerenciamento de sistemas. Ele também é usado para compilar, testar e implantar soluções, geralmente em ambientes de CI/CD. O PowerShell é criado no CLR (Common Language Runtime) do .NET. Todas as entradas e saídas são objetos .NET. Não é necessário analisar a saída de texto para extrair informações da saída. 
+			</p>
+
+
+		</div>
+		<div class="thumbnail">
+			<img src= "img.png" alt="Powershell logo">
+		</div>
+	</section>
+
+	<footer class="background">
+		<p class="text-footer">
+			Concierge Tecnologia-Todos os Direitos estão Reservados.
+		</p>
+
+
+	</footer>
+</body>
+
+</html>
